@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <!-- controls da los controls al video -->
+        <!-- preload renderisa el video en el tiempo de carga del navegador -->
+        <!-- en el souce se puede poner en que momento empezarlo con #t=segInicio segFinal -->
+        <!-- se pueden usar distintas etiquetas src con diferentes formatos para todos los navegadores -->
+        <video controls preload="auto">
+          <source src="videoTest.mp4#t=10,60" />
+          <source src="videoTest.flv#t=10,60" />
+        </video>
+      </section>
+    </main>
+  </body>
+</html>
