@@ -1,0 +1,35 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+  background-color: #13a4a4;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* * cuando se cubre */
+.main-nav__item a:hover {
+  color: blue;
+}
+/* cuando esta activo */
+.main-nav__item a:active {
+  color: red;
+}
+/* *pseudo elemento */
+/* despues del elemento agrega */
+.main-nav__item a::after {
+  content: ' | ';
+}
+.main-nav__item::before {
+  content: ' | ';
+  color: white;
+  padding-left: 5px;
+}
