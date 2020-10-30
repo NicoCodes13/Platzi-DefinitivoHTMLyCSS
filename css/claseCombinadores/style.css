@@ -4,6 +4,17 @@
 } */
 
 /* Hermano general */
-h2 ~ p {
+/* h2 ~ p {
+  color: red;
+} */
+
+/* decendent */
+
+div p {
+  color: blue;
+}
+
+/* Child combinator */
+div > p {
   color: red;
 }
