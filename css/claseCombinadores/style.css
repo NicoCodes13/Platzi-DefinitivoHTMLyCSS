@@ -1,6 +1,9 @@
 /* Hermano cercano */
-h2 + p {
+/* h2 + p {
   color: red;
-}
+} */
 
 /* Hermano general */
+h2 ~ p {
+  color: red;
+}
