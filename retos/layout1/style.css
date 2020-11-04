@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+.header {
+  display: flex;
+  background-color: #d2e7ead3;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.logo {
+  margin: 0.2rem 0.5rem;
+  padding: 0;
+  display: inline-block;
+}
+.nav {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.nav-item {
+  display: inline-block;
+  margin: 1rem;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+  background-color: #158498;
+  overflow: hidden;
+  height: 70vh;
+}
+
+.lateral-bar {
+  text-align: center;
+  display: inline-block;
+  width: 25vw;
+  height: 100%;
+}
+
+.lateral-bar .box {
+  width: 80%;
+  height: 22%;
+  background-color: aquamarine;
+  margin: 4% auto;
+  border: 0.2rem solid #0b4b57;
+  border-radius: 1rem;
+}
+
+.principal {
+  display: inline-block;
+  width: 65vw;
+  text-align: justify;
+  padding-left: 2rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  background-color: #101318;
+  text-align: left;
+  height: 17vh;
+}
+.logo-item {
+  text-align: justify;
+  display: inline-block;
+  margin: 0 0.8rem;
+  list-style: none;
+}
+.icon {
+  font-size: 2rem;
+  display: inline;
+  margin-right: 0.4rem;
+}
