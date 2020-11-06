@@ -12,17 +12,12 @@ body {
 .container {
   border: 0.3rem solid black;
   display: flex;
-  /* Direccion */
-  flex-direction: row;
-  /* salto si se queda sin espacio */
   flex-wrap: wrap;
-  /* Acomodar horizontalmente */
-  /* evenly mantiene los mismos tamaños */
-  justify-content: space-evenly;
 }
 .box {
-  width: 10rem;
   height: 10rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
 }
 .box1 {
   background-color: blue;
